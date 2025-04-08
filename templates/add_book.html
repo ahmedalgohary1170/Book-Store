@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h1 class="mt-5">Add Book</h1>
+
+    <form method="POST">
+        <div class="mb-3">
+            <label for="tilte" class="form-label">Book Title</label>
+            <input type="text" name="title" placeholder="Title" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="tilte" class="form-label">Author Name</label>
+            <input type="text" name="author_name" placeholder="Title" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Add Book</button>
+    </form>
+
+{% endblock %}
