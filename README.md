@@ -38,9 +38,6 @@ git clone https://github.com/ahmedalgohary1170/Book-Store.git
 ```
 ### 2. Navigate to the Project Directory:
 ```bash
-cd Book-Store
-
-```bash
 2. cd Book-Store
 ```
 ### 3. Install the Dependencies:
