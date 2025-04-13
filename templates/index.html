@@ -2,7 +2,7 @@
 
 
 {% block content %}
-    <h1 class="mt-5">Book List</h1>
+    <h class="mt-5">Book List</h1>
 
 
     <table class="table mt-3">
@@ -17,7 +17,7 @@
         <tbody>
             {% for book in books %}
             <tr>
-                <td><a href="">{{book.title}}</a></td>
+                <td><a href="{{url_for('book_detail',id=book.id)}}">{{book.title}}</a></td>
                 <td>{{book.author.name}}</td>
                 <td>
                     <a href="/edit/{{book.id}}" class="btn btn-sm btn-primary" >Edit</a>
