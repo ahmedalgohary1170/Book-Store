@@ -35,17 +35,18 @@ The "Book Store" project is a web application built with the Flask framework. It
 Copy the repository to your local machine:
 ```bash
 git clone https://github.com/ahmedalgohary1170/Book-Store.git
-
+```
 ### 2. Navigate to the Project Directory:
 ```bash
 cd Book-Store
 
 ```bash
 2. cd Book-Store
-
+```
 ### 3. Install the Dependencies:
 ```bash
 pip install -r requirements.txt
+```
 ### 4. Run the Application:
 ```bash
 flask run
