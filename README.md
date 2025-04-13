@@ -36,7 +36,8 @@ Copy the repository to your local machine:
 ```bash
 git clone https://github.com/ahmedalgohary1170/Book-Store.git ```
 
-```### 2. cd Book-Store
+```bash
+2. cd Book-Store```
 
 ### 3. pip install -r requirements.txt
 
